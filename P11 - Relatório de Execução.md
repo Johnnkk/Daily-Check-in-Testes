@@ -18,9 +18,9 @@
 
 #### Evidências (Screenshots — Robot Framework)
 
-*<img width="1912" height="916" alt="image" src="https://github.com/user-attachments/assets/2237d7ad-4c85-449a-868e-b715ed044245" />
-<img width="1867" height="930" alt="image" src="https://github.com/user-attachments/assets/3cfece57-c7bf-49de-b239-f25e2f39a49d" />
-*
+*<img width="1861" height="936" alt="image" src="https://github.com/user-attachments/assets/d91330a0-c356-444b-b88c-0d4117f2f7e5" />
+<img width="1852" height="957" alt="image" src="https://github.com/user-attachments/assets/6a13fbf8-189f-426e-9e0c-0577e73e7d08" />
+
 
 ### Resumo dos Resultados
 
@@ -32,6 +32,6 @@
 
 | Arquivo | Descrição | Link |
 | :--- | :--- | :--- |
-| report.html | Resumo da execução | [Abrir report.html](https://github.com/SEU_AMIGO/REPOSITORIO/blob/main/report.html) |
-| log.html | Log detalhado | [Abrir log.html](https://github.com/SEU_AMIGO/REPOSITORIO/blob/main/log.html) |
-| output.xml | Resultado bruto | [Abrir output.xml](https://github.com/SEU_AMIGO/REPOSITORIO/blob/main/output.xml) |
+| report.html | Resumo da execução | [Abrir report.html](https://github.com/Johnnkk/Daily-Check-in-Testes/blob/main/report.html) |
+| log.html | Log detalhado | [Abrir log.html](https://github.com/Johnnkk/Daily-Check-in-Testes/blob/main/log.html) |
+| output.xml | Resultado bruto | [Abrir output.xml](https://github.com/Johnnkk/Daily-Check-in-Testes/blob/main/output.xml) |
