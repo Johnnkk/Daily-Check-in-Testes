@@ -1,17 +1,24 @@
-# Pergunta 9 — Modelagem do Teste de Interface (1)
+# Pergunta 10 — Implementação — Script Robot Framework — Teste 1
 
-### Tela: Página de Login (Daily Check-in Sênior)
-**Técnica Utilizada:** Tabela de Decisão  
-**Cenário:** Verificar título da página de login
+```robot
+*** Settings ***
+Library    SeleniumLibrary
+Suite Teardown    Close Browser
 
-### Tabela de Decisão
+*** Variables ***
+${URL_LOGIN}           http://localhost:3000/login
+${BROWSER}             chrome
+${TITULO_ESPERADO}     Daily Check-in Sênior - Login
 
-| Condição / Regra | CT01 |
-| :--- | :---: |
-| **R1 — Acessar a URL da página de login** | S |
-| **Resultado Esperado** | O título exibido na aba do navegador deve corresponder exatamente ao esperado |
+*** Test Cases ***
+CT01 - Deve verificar o titulo da pagina de login
+    Dado que o usuário acessa a página de login
+    Então a aba do navegador deve exibir o título correto
 
-### Caso de Teste Derivado (CT01)
-
-* **Ação:** Abrir a rota `/login`.
-* **Resultado Esperado:** O elemento `Title` da aba do navegador deve ser "Daily Check-in Sênior - Login".
+*** Keywords ***
+Dado que o usuário acessa a página de login
+    Open Browser    ${URL_LOGIN}    ${BROWSER}
+    Maximize Browser Window
+Então a aba do navegador deve exibir o título correto
+    Title Should Be    ${TITULO_ESPERADO}
+```
