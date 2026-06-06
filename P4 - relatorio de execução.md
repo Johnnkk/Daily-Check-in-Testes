@@ -16,7 +16,7 @@
 * **CT01 — Criar vínculo com sucesso:** Resultado esperado: `201 Created`. Resultado obtido: `201 Created`. Status: Aprovado.
 
 #### Evidência (Response Body — Postman)
-*(Arraste a imagem do print do seu Postman do teste 201 Created bem aqui)*
+
 
 ### Resumo dos Resultados
 
